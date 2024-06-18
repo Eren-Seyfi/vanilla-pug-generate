@@ -1,0 +1,33 @@
+{
+  "inputDir": "src",
+  "outputDir": "www",
+  "interval": 5000,
+  "mainTemplate": "templates/layouts/main.pug",
+  "pagesDir": "templates/pages",
+  "templates": {
+    "layouts": [
+      "main.pug",
+      "example.pug"
+    ],
+    "partials": [
+      "header.pug",
+      "footer.pug",
+      "nav.pug"
+    ],
+    "pages": [
+      "index.main.pug",
+      "about.main.pug",
+      "index.example.pug",
+      "about.example.pug"
+    ],
+    "components": []
+  },
+  "public": {
+    "css": [
+      "style.css"
+    ],
+    "js": [
+      "app.js"
+    ]
+  }
+}
